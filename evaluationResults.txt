@@ -1,0 +1,152 @@
+Evaluation Scale:
+0.0% <=Accuracy<= 100.0%
+0.0 <=auROC<= 1.0
+0.0 <=auPR<= 1.0
+0.0 <=F1_Score<= 1.0
+-1.0 <=MCC<= 1.0
+0.0%<=Sensitivity<= 100.0%
+0.0%<=Specificity<= 100.0%
+
+------------------------------------------
+Using 10 fold-cross validation results.
+------------------------------------------
+LogisticRegression
+
+Accuracy: 77.3044%
+auROC: 0.8420
+auPR: 0.8193
+F1_Score: 0.7833
+MCC: 0.5551
+Recall: 0.8417
+Sensitivity: 84.1905%
+Specificity: 70.7273%
+Confusion Matrix:
+[[389 161]
+ [ 83 442]]
+_______________________________________
+KNeighborsClassifier
+
+Accuracy: 62.9759%
+auROC: 0.6981
+auPR: 0.6364
+F1_Score: 0.7011
+MCC: 0.3153
+Recall: 0.8894
+Sensitivity: 88.9524%
+Specificity: 38.1818%
+Confusion Matrix:
+[[210 340]
+ [ 58 467]]
+_______________________________________
+DecisionTreeClassifier
+
+Accuracy: 61.3075%
+auROC: 0.6172
+auPR: 0.5621
+F1_Score: 0.5948
+MCC: 0.2262
+Recall: 0.5867
+Sensitivity: 58.6667%
+Specificity: 63.8182%
+Confusion Matrix:
+[[351 199]
+ [217 308]]
+_______________________________________
+GaussianNB
+
+Accuracy: 53.6743%
+auROC: 0.6570
+auPR: 0.5994
+F1_Score: 0.2327
+MCC: 0.0870
+Recall: 0.1468
+Sensitivity: 14.6667%
+Specificity: 90.9091%
+Confusion Matrix:
+[[500  50]
+ [448  77]]
+_______________________________________
+BaggingClassifier
+
+Accuracy: 67.4489%
+auROC: 0.7203
+auPR: 0.6863
+F1_Score: 0.6392
+MCC: 0.3532
+Recall: 0.5928
+Sensitivity: 59.2381%
+Specificity: 75.2727%
+Confusion Matrix:
+[[414 136]
+ [214 311]]
+_______________________________________
+RandomForestClassifier
+
+Accuracy: 69.9550%
+auROC: 0.7631
+auPR: 0.7415
+F1_Score: 0.6816
+MCC: 0.3990
+Recall: 0.6611
+Sensitivity: 66.0952%
+Specificity: 73.6364%
+Confusion Matrix:
+[[405 145]
+ [178 347]]
+_______________________________________
+AdaBoostClassifier
+
+Accuracy: 65.6741%
+auROC: 0.7180
+auPR: 0.6851
+F1_Score: 0.6552
+MCC: 0.3146
+Recall: 0.6685
+Sensitivity: 66.8571%
+Specificity: 64.5455%
+Confusion Matrix:
+[[355 195]
+ [174 351]]
+_______________________________________
+GradientBoostingClassifier
+
+Accuracy: 69.0273%
+auROC: 0.7566
+auPR: 0.7367
+F1_Score: 0.6854
+MCC: 0.3825
+Recall: 0.6953
+Sensitivity: 69.5238%
+Specificity: 68.5455%
+Confusion Matrix:
+[[377 173]
+ [160 365]]
+_______________________________________
+SVC
+
+Accuracy: 75.4465%
+auROC: 0.8363
+auPR: 0.8317
+F1_Score: 0.7535
+MCC: 0.5118
+Recall: 0.7677
+Sensitivity: 76.7619%
+Specificity: 74.1818%
+Confusion Matrix:
+[[408 142]
+ [122 403]]
+_______________________________________
+LinearDiscriminantAnalysis
+
+Accuracy: 72.6506%
+auROC: 0.7951
+auPR: 0.7577
+F1_Score: 0.7473
+MCC: 0.4700
+Recall: 0.8323
+Sensitivity: 83.2381%
+Specificity: 62.5455%
+Confusion Matrix:
+[[344 206]
+ [ 88 437]]
+_______________________________________
